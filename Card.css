@@ -1,0 +1,45 @@
+/* Card.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+    bottom: -400px; /* Hide below the screen */
+    right: -100px;  /* Hide to the right of the screen */
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+
+  }
+  .card.show {
+    bottom: 5px;  /* Position inside the screen */
+    right: 5px;   /* Position inside the screen */
+    opacity: 1;
+  }
+  
+  .card-header {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 15px;
+    font-size: 1rem;
+  }
+  
+  .card-footer {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    text-align: right;
+    border-top: 1px solid #ddd;
+  }
+
+
+
+
+
+  
